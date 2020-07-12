@@ -34,33 +34,18 @@
 ## 这是迈向自由的重要步;
 
 
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
 ```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+graph TD
+ A[光纤] -->B(光调制解调器)
+ B --> C{NewWifi3}
+ C --> D{无线路由器}
+ D --> |LAn| I[....]
+ D --> |LAn| E[计算机]
+ D --> |WiFi| F[安卓手机]
+ D --> |WiFi| G[苹果手机]
+ D --> |LAn| H[智能电视]
+ D --> |WiFi| J[...]
 ```
-
 
 
 
