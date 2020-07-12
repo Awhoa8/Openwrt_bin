@@ -5,7 +5,7 @@
 只想挽回在你那台ios设备丢失的尊严***;这个计划筹备了很久,失败了很多次,
 当然这终将会成功,
 
-## 如何使用,
+## 如何使用:
 硬件设备,***NewWifi3无线路由器***一台;***普通无线路由器***一台;***RJ45_T568B千兆网线***一根;
 (***声明:为了追求极致&稳定,内核默认去掉了无线芯片的驱动,以及USB3.0的驱动;***)
 ```ruby
@@ -30,10 +30,28 @@
 ***稳定,简洁***
 内置了最新版***Hello_world插件***帮你绕过来自大陆的网络审查,以及和此Kernel配套的***SDK***,升级插件将变得轻而易举,你无须编译整个固件;内置***Frp客户端***,随心随意的远程管理将在任何地方;
 
-# 硬件连接;
+# 硬件连接:
 ## 这是迈向自由的重要步;
 
 
+
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
 
 ```mermaid
 graph LR
@@ -45,7 +63,10 @@ C --> D
 
 
 
-# 💕特别感谢💕
+
+
+
+# 💕特别感谢:💕
 
 |        |             |            |
 |--------|-------------|------------|
@@ -58,7 +79,7 @@ C --> D
 #### 以后就别去干流水线了,做点别的吧,祝你前途似锦;
 
 
-# 警告!!
+# !!警告!!
 此软件***仅仅只为学习,研究***,请勿作为商业用途出售贩卖以及非法传播,***由此造成的法律责任均和本人无关***;
 
 ### 信息不应该被收费;
